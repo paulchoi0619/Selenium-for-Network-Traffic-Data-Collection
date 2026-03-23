@@ -1,7 +1,6 @@
 # README
 
-This project contains a Selenium-based Java class (`WebDriver`) that opens a browser, logs timestamps, optionally starts a packet capture, and runs a set of website-specific methods on a schedule.
-
+This project is a Selenium-based Java automation script that opens Chrome, visits selected websites, and runs them on a schedule.
 Use this only with accounts, systems, and traffic captures you are authorized to access.
 
 
@@ -30,9 +29,7 @@ In Eclipse:
 ### 5. Set up Chrome and ChromeDriver
 
 This project uses `ChromeDriver`, so you need:
-
 - Google Chrome installed
-- a compatible ChromeDriver available to the project
 
 ### 6. Download the Selenium Script ZIP and open the project in Eclipse
 ### 7. Confirm the project runs before scheduling anything
@@ -72,7 +69,7 @@ Then use those variables instead of literal strings in the login methods.
 
 ## Editing the website methods
 Updating the website methods:
-The web elements needs constant update as the element id frequently changes in the website. 
+Website methods may need regular maintenance because site element IDs and page layouts can change over time.
 It is helpful to make sure they are all up-to-date before running the script.
 
 Most login methods follow the same pattern:
@@ -171,8 +168,7 @@ Before enabling a large `functions` list, test with one site and one run time:
 List<String> functions = List.of("google");
 List<String> runTimes = List.of("09:00");
 ```
-
-This makes it easier to verify when the code needs update due to changes in the html 
+This makes it easier to verify whether the automation still works before enabling the full site list.
 ## File summary
 
 - `main(...)`: schedules batch runs

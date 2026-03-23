@@ -33,13 +33,14 @@ This project uses `ChromeDriver`, so you need:
 
 - Google Chrome installed
 - a compatible ChromeDriver available to the project
-### 6. Confirm the project runs before scheduling anything
 
+### 6. Download the Selenium Script ZIP and open the project in Eclipse
+### 7. Confirm the project runs before scheduling anything
 Before using the full site list, verify that:
 - Eclipse shows no unresolved Selenium imports
 - Chrome opens successfully from a minimal test
 - your JDK, Chrome version, and ChromeDriver version are compatible
-### 6. Download the Selenium Script ZIP and open the project in Eclipse
+
 
 ## Selnium Script: What needs to be edited before running
 The pasted source includes several placeholder strings such as:

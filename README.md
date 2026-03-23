@@ -180,4 +180,15 @@ This makes it easier to verify when the code needs update due to changes in the 
 - `stopTcpDump(...)`: stops the packet capture process
 - site methods like `gmail()`, `outlook()`, `facebook()`: browser automation for each site
 
-
+## Acknowledgment
+This project as part of the following paper. Please cite this work if you reuse the related ideas or implementation approach.
+```bibtex
+@misc{confidencedrivenclassificationapplication,
+      title={Confidence Driven Classification of Application Types in the Presence of Background Network Traffic}, 
+      author={Eun Hun Choi and Jasleen Kaur and Vladas Pipiras and Nelson Gomes Rodrigues Antunes and Brendan Massey},
+      year={2026},
+      eprint={2508.03891},
+      archivePrefix={arXiv},
+      primaryClass={cs.NI},
+      url={https://arxiv.org/abs/2508.03891}, 
+}

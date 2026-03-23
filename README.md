@@ -39,11 +39,9 @@ Before using the full site list, verify that:
 - Eclipse shows no unresolved Selenium imports
 - Chrome opens successfully from a minimal test
 - your JDK, Chrome version, and ChromeDriver version are compatible
-
+### 6. Download the Selenium Script ZIP and open the project in Eclipse
 
 ## Selnium Script: What needs to be edited before running
-
-
 The pasted source includes several placeholder strings such as:
 - `"Enter ID"`
 - `"Enter Email"`
